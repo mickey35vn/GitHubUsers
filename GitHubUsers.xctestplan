@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "59D254BD-8AEA-4E3B-A342-29A17521007B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "IDEPreferLogStreaming",
+        "value" : "YES"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:GitHubUsers.xcodeproj",
+      "identifier" : "8BF0C0EA2C7F49B1005752D3",
+      "name" : "GitHubUsers"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:GitHubUsers.xcodeproj",
+        "identifier" : "8BF0C0FC2C7F49B4005752D3",
+        "name" : "GitHubUsersTests"
+      }
+    }
+  ],
+  "version" : 1
+}
